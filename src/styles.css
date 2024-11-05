@@ -2,20 +2,85 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
-}
-
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
-}
-
-main > h1 {
-  text-align: center;
-  font-size: 3.5em;
-}
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #3b3f72;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        .image-placeholder {
+            background-color: #ddd;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+            color: #666;
+            font-size: 1.5em;
+        }
+        section {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        h2 {
+            color: #3b3f72;
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+            padding-left: 15px;
+            position: relative;
+        }
+        ul li:before {
+            content: "✔";
+            color: #3b3f72;
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+        }
+        .cta {
+            text-align: center;
+            padding: 20px;
+            background-color: #3b3f72;
+            color: #fff;
+            font-size: 1.2em;
+        }
+        .cta a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+        }
